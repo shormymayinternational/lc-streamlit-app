@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-EXCEL_FILE = r"E:\LC\LC_2026_MT700.xlsx"
+EXCEL_FILE = r"utils\LC_2026_MT700.xlsx"
 
 @st.cache_data(ttl=300)
 def load_data():
